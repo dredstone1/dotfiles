@@ -10,24 +10,20 @@ To install the dotfiles, you can use GNU Stow. This will create symlinks in your
 Make sure you have GNU Stow installed. You can install it using your package manager. For example, on a Debian-based system, you can use:
 
 ```sh
+# Install GNU Stow
 sudo apt-get install stow
+
+# Clone the dotfiles repository
 git clone https://github.com/dredstone1/.dotfiles.git ~/dotfiles
-stow --target ~ */
+
+# Change to the dotfiles directory
+cd ~/dotfiles
+
+# Use Stow to link the dotfiles to the home directory
+stow -t ~ */
 ```
 
 This command will create symlinks for all the directories in the repository to your home directory.
-
-## Structure
-
-The repository is organized into directories, each containing the configuration files for a specific application or tool. For example:
-
-- `bash/` - Bash configuration files
-- `vim/` - Vim configuration files
-- `git/` - Git configuration files
-
-## Customization
-
-Feel free to customize the dotfiles to suit your needs. You can modify the files directly in this repository and then re-run the install command to update the symlinks.
 
 ## Contributing
 
