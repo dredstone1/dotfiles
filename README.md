@@ -27,7 +27,7 @@ This command will create symlinks for all the directories in the repository to y
 
 ## Contributing
 
-If you have any improvements or suggestions, feel free to open an issue or submit a pull request.
+f you have any improvements or suggestions, feel free to open an issue or submit a pull request.
 
 ## License
 
