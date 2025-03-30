@@ -184,3 +184,4 @@ eval "$(oh-my-posh init bash --config https://raw.githubusercontent.com/JanDeDob
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 
+. "$HOME/.cargo/env"
