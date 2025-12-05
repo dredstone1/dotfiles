@@ -369,4 +369,10 @@ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)" # Make sure this path is 
 #   PATH="$HOME/.local/share/gem/ruby/3.0.0/bin:$PATH"
 # fi
 
+export PATH=/usr/local/cuda/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH
+
+eval "$(zoxide init bash)"
+
 echo "Bashrc loaded!" # NEW: Confirmation that .bashrc has finished loading
+
