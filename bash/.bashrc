@@ -129,6 +129,7 @@ export LD_LIBRARY_PATH="/usr/local/cuda/lib64:$LD_LIBRARY_PATH"
 export LANG=en_IL.UTF-8
 export LC_CTYPE=en_IL.UTF-8
 export LC_ALL=en_IL.UTF-8
+
 export DISPLAY=${DISPLAY:-:0}
 
 # ============================
