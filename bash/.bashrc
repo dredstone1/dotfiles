@@ -66,8 +66,12 @@ alias .....="cd ../../../.."
 # Custom Aliases
 # ============================
 alias b='~/ba.sh'
+
+alias cf='clear && fastfetch'
 alias c='clear'
+
 alias y='yazi'
+
 alias v='nvim'
 alias n='nvim .'
 
@@ -138,6 +142,12 @@ export LC_CTYPE=en_IL.UTF-8
 export LC_ALL=en_IL.UTF-8
 
 export DISPLAY=${DISPLAY:-:0}
+
+
+# ============================
+# fastfetch prompt
+# ============================
+fastfetch
 
 # ============================
 # Oh My Posh prompt
