@@ -61,8 +61,15 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-alias ba='~/ba.sh'
-alias cl='clear'
+
+# ============================
+# Custom Aliases
+# ============================
+alias b='~/ba.sh'
+alias c='clear'
+alias y='yazi'
+alias v='nvim'
+alias n='nvim .'
 
 # ============================
 # Custom functions
