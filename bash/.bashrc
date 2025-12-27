@@ -72,6 +72,8 @@ alias y='yazi'
 
 alias v='nvim'
 alias n='nvim .'
+alias t='tmux'
+alias ta='tmux attach'
 
 # ============================
 # Custom functions
