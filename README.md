@@ -21,7 +21,6 @@ The main modifier key is **SUPER** (Windows key).
 | SUPER + Z | Open web browser (`zen-browser`) |
 | SUPER + A | Open clipboard manager (`copyq`) |
 
----
 
 ### Window Management
 
