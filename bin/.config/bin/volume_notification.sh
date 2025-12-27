@@ -1,7 +1,5 @@
-#!/bin/sh
-
 APP_NAME="media"
-NOTIFY_ID=9992  # Different ID from the progress script
+NOTIFY_ID=9992
 
 get_volume() {
     vol=$(wpctl get-volume @DEFAULT_AUDIO_SINK@ | awk '/Volume:/ {print $2}')

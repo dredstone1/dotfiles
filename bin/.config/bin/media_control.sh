@@ -1,5 +1,3 @@
-#!/bin/sh
-
 APP_NAME="media"
 NOTIFY_ID=9991
 

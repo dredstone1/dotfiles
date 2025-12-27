@@ -65,8 +65,6 @@ alias .....="cd ../../../.."
 # ============================
 # Custom Aliases
 # ============================
-alias b='~/.config/bin/ba.sh'
-
 alias cf='clear && fastfetch'
 alias c='clear'
 
