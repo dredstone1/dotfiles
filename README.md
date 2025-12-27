@@ -2,10 +2,6 @@
 
 This repository contains my personal configuration files (dotfiles) for various applications and tools. These dotfiles help to set up a consistent development environment across different machines.
 
-## Installation
-
-To install the dotfiles, you can use GNU Stow. This will create symlinks in your home directory pointing to the files in this repository.
-
 ## Hyprland Keybindings
 
 This setup uses **Hyprland** as the Wayland compositor.  
@@ -131,6 +127,10 @@ The main modifier key is **SUPER** (Windows key).
 | SUPER + T | Show time notification |
 | SUPER + B | Show battery status    |
 
+
+## Installation
+
+To install the dotfiles, you can use GNU Stow. This will create symlinks in your home directory pointing to the files in this repository.
 
 ### Prerequisites
 
