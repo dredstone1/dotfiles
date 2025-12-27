@@ -32,7 +32,6 @@ The main modifier key is **SUPER** (Windows key).
 | SUPER + P | Toggle pseudo mode  |
 | SUPER + J | Toggle split layout |
 
----
 
 ### Focus Navigation
 
@@ -46,7 +45,6 @@ The main modifier key is **SUPER** (Windows key).
 |--------|--------|
 | SUPER + CTRL + H / L / K / J | Move focus |
 
----
 
 ### Move Windows
 
@@ -60,7 +58,6 @@ The main modifier key is **SUPER** (Windows key).
 |--------|--------|
 | SUPER + SHIFT + H / L / K / J | Move window |
 
----
 
 ### Resize Windows
 
@@ -75,7 +72,6 @@ The main modifier key is **SUPER** (Windows key).
 |--------|--------|
 | SUPER + ALT + ← → ↑ ↓ | Resize window |
 
----
 
 ### Workspaces
 
@@ -92,7 +88,6 @@ The main modifier key is **SUPER** (Windows key).
 | SUPER + S | Toggle scratchpad |
 | SUPER + SHIFT + S | Move window to scratchpad |
 
----
 
 ### Mouse Bindings
 
@@ -101,7 +96,6 @@ The main modifier key is **SUPER** (Windows key).
 | SUPER + Left Click  | Move window   |
 | SUPER + Right Click | Resize window |
 
----
 
 ### Media & Volume Controls
 
@@ -130,7 +124,6 @@ The main modifier key is **SUPER** (Windows key).
 | SUPER + SHIFT + I | Seek −10s |
 | SUPER + SHIFT + O | Seek +30s |
 
----
 
 ### System Shortcuts
 
@@ -138,6 +131,7 @@ The main modifier key is **SUPER** (Windows key).
 | --------- | ---------------------- |
 | SUPER + T | Show time notification |
 | SUPER + B | Show battery status    |
+
 
 ### Prerequisites
 
