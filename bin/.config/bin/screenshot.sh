@@ -4,18 +4,33 @@ NOTIFY_ID=7771
 SCREENSHOT_DIR="$HOME/pictures/Screenshots"
 mkdir -p "$SCREENSHOT_DIR"
 
+# Function to send notification and handle click
+notify_and_open() {
+    local file=$1
+    local msg=$2
+    
+    action=$(dunstify -r "$NOTIFY_ID" -i "$file" "$msg" "Click to open" -t 3000 --action="default,open")
+
+    case "$action" in
+        "default")
+            xdg-open "$file"
+            ;;
+    esac
+}
+
 take_region() {
     outfile="$SCREENSHOT_DIR/Screenshot-$(date +%F_%T).png"
-    grim -g "$(slurp)" "$outfile"
-    wl-copy < "$outfile"
-    dunstify -r "$NOTIFY_ID" -i "$outfile" "Screenshot of region taken" -t 1000
+    if grim -g "$(slurp)" "$outfile"; then
+        wl-copy < "$outfile"
+        notify_and_open "$outfile" "Screenshot of region taken"
+    fi
 }
 
 take_full() {
     outfile="$SCREENSHOT_DIR/Screenshot-$(date +%F_%T).png"
     grim "$outfile"
     wl-copy < "$outfile"
-    dunstify -r "$NOTIFY_ID" -i "$outfile" "Screenshot of whole screen taken" -t 1000
+    notify_and_open "$outfile" "Screenshot of whole screen taken"
 }
 
 case "$1" in
@@ -30,4 +45,3 @@ case "$1" in
         exit 1
         ;;
 esac
-
