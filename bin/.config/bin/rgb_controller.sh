@@ -1,1 +1,1 @@
-openrgb --device 0 --mode static --color FFFFFF
+openrgb --device 1 --mode static --color FFFFFF
