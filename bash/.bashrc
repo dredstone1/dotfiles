@@ -154,3 +154,6 @@ fastfetch
 # ============================
 eval "$(oh-my-posh init bash --config https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/refs/heads/main/themes/amro.omp.json)"
 
+
+export PATH=$PATH:/home/maayan/.spicetify
+export PATH=$PATH:~/.spicetify
