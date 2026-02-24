@@ -157,3 +157,5 @@ eval "$(oh-my-posh init bash --config https://raw.githubusercontent.com/JanDeDob
 
 export PATH=$PATH:/home/maayan/.spicetify
 export PATH=$PATH:~/.spicetify
+
+export XDG_DATA_HOME="/home/maayan/.local/share"
