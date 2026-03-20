@@ -159,3 +159,4 @@ export PATH=$PATH:/home/maayan/.spicetify
 export PATH=$PATH:~/.spicetify
 
 export XDG_DATA_HOME="/home/maayan/.local/share"
+export PATH=$PATH:~/.spicetify
